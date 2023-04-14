@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<title>porfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.scss">
+	<script src="https://kit.fontawesome.com/65348e06df.js" crossorigin="anonymous"></script>
+	</head>
+<body>
+	<div class="image_left"> </div>
+	<br>
+	
+<div class="tab">
+	<table>
+	<div class="menu">
+			<ul>
+			
+				<li class="one"><a href="menu.html">Home</a></li>
+				<li class="two"><a href="#toggle-button">About</a></li>
+				<li class="three"><a href="https://github.com/messager-mutsumbirwa">Project Github</a></li>
+				<li class="four"><a href="../porfolio/doc/cv.pdf" download >Download Cv<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA2UlEQVR4nO3WTQrCMBCG4aD4B3od8SYuvIUeQ6tHcFWXKijiUj1M9RLllZEWSi120kRc2G+VQjsPMyGkxpQE6AIr4M57ImAp7xjXJEhZAh9QUSf5PHxAqpgayqce3Z+ODhgDMe6JgcknqAnsPUBXoF3WVQvYOSA3YKAdoWDbCsgF6Nvuly12BnpWSG7PNgrk5HwnKbCjl4svg4UFyAHoaIu8osTWGSSUfVTX10LJRw1gBkxlbdWIDVQl/AKKkvXwC8goqR3JQ6A4J66Zpz+IgqWd+YzUXMgReAKGKrjF0JjSngAAAABJRU5ErkJggg=="></a></li>
+		
+		</ul>
+	</div>
+	<div class="name">
+		<h1>Messager<br>Mutsumbirwa</h1>
+	</div>
+
+	<div class="container">
+      <p>
+        <span>
+          Web developper
+        </span>
+      </p>
+      <p>
+        <span>
+          full-Stack developper
+        </span>
+      </p>
+    </div>
+
+    <div class="intro"><h4>HELLO!!I am a full-stack web developer based in Houston, Texas.<br> My goal is to leverage cutting-edge technologies to create <br>exceptional user experiences. I am passionate about all aspects<br> of web development and strive to create high-quality products.<br> With a focus on best practices, I am dedicated to delivering<br> top-notch solutions to my clients.As a web developer, I am constantly <br>seeking opportunities to expand my skillset and stay current<br> with the latest trends in the field.</h4>
+   </div>
+</table>
+</div>
+
+<div class="gif"><img src="../porfolio/doc/coding.gif"></div>
+<div class="gif2"><img src="../porfolio/doc/gif2.gif"></div>
+
+<div class="social-media-icons">
+	<ul>
+  <li><a href="https://wa.me/8328307378" target="_blank"><i class="fa-brands fa-square-whatsapp fa-bounce fa-2xl"></i></a></li>
+  <br>
+  <li><a href="https://www.instagram.com/messagermutsu" target="_blank"><i class="fab fa-instagram fa-2xl"></i></a></li><br>
+  <li><a href="https://github.com/messager-mutsumbirwa" target="_blank"><i class="fab fa-github fa-2xl"></i></a></li><br>
+  <li><a href="https://www.linkedin.com/in/messager-kambale-0391a6230/" target="_blank"><i class="fab fa-linkedin fa-2xl"></i></a></li><br>
+</ul>
+</div>
+
+
+
+   <button id="toggle-button" class="description">ABOUT ME</button>
+   <div id="data" class="hidden">
+   <h3 class="desc">Description</h3>
+   <div class="bio">Currently I am a Junior web Engineer at Storeshop B2B.<br>  A proud holder of a first class Bsc Honours Degree<br> in Computer Science(Software-engineer) and an Applied in HCC<br>(Houston Community College )in software Engineering and web Programming. <br>I have been working in computing for the past 5 years<br> with some of the experience gained from overseas internships</div>
+
+
+<main>
+    <section class="skills">
+      <h3>Skills</h3>
+      <ul>
+        <li>Full stack development with Java, HTML, CSS, PHP, and SQL</li>
+        <li>Proficiency in design tools such as Photoshop, Adobe Illustrator, and AAlogos</li>
+        <li>Video editing with Adobe Premiere Pro</li>
+        <li>Accounting and management skills</li>
+      </ul>
+    </section>
+    <section class="experience">
+      <h3>Experience</h3>
+      <ul>
+        <li>Junior Developer at Store-Shop, Goma/DRC (September 2019 - November 2020)</li>
+        <li>Internship at Caisse National et securite social, Goma/DRC (April 2019 - July 2019)</li>
+      </ul>
+    </section>
+    <section class="education">
+      <h3>Education</h3>
+      <ul>
+        <li>Bachelor in Full Stack Engineering from International University of East Africa, Kampala/Uganda (January 2019 - December 2022)</li>
+        <li>Diploma in Humanitarian Studies with a focus on Technical Commercial and Management Skills from Metanoia Institut ULPGL, Goma/DRC (November 2015 - November 2019)</li>
+        <li>Certificate in Basic Training to Prepare for High School and University Studies from EMP KAUTA ULPGL, Goma/DRC (November 2007 - July 2014)</li>
+      </ul>
+    </section>
+    <section class="projects">
+      <h3>Projects</h3>
+      <ul>
+        <li>Django-based E-commerce Web Application</li>
+        <li>Sun Architecture Website</li>
+        <li>Education Management Web Application</li>
+      </ul>
+    </section>
+    <section class="languages">
+      <h3>Languages</h3>
+      <ul>
+        <li>Fluent in Swahili, English, and French</li>
+      </ul>
+    </section>
+  </main>
+</div>
+
+  
+
+</body>
+</html>
+<script >
+	document.addEventListener('DOMContentLoaded', () => {
+  // Sélectionnez le bouton et la div de données
+const toggleButton = document.getElementById('toggle-button');
+const dataDiv = document.getElementById('data');
+
+// Ajouter un écouteur d'événements pour le clic sur le bouton
+toggleButton.addEventListener('click', () => {
+  // Ajouter ou supprimer la classe CSS "hidden" sur la div de données
+  dataDiv.classList.toggle('hidden');
+});
+});
+
+
+
+
+
+</script>
